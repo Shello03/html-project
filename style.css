@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+  }
+  
+  /* Header Styles */
+  
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  h3 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+div{
+  text-align: left;
+}
+  hr {
+    border: none;
+    border-top: 3px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Navigation Styles */
+  
+  .Home {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .Home a {
+    text-decoration: none;
+    color: #337ab7;
+    margin: 0 10px;
+  }
+  
+  .Home a:hover {
+    color: #23527c;
+  }
+  
+  /* Content Styles */
+  
+  h2, h3, h4, h5 {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ol {
+    margin: 0 20px;
+  }
+  
+  ol li {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  
+  h4 a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  h4 a:hover {
+    color: #23527c;
+  }
+
+/* Container for Images */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+/* Image Styles */
+  .Mickey img, 
+.mintfloral img, 
+.mintpolkadots img, 
+.mushroom img, 
+.owl img, 
+.pinkfloral img, 
+.planetscats img, 
+.purplebutterflies img, 
+.rustfloral img,
+.sheep img{
+  width: 450px !important;
+  height: 450px !important;
+  margin: 5%; 
+
+}
+
+.image-container {
+  margin: 5%; 
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  width: 450px; 
+  height: 450px; 
+}
+
+.image-container img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 10px; 
+  transition: transform 0.3s; 
+}
+
+.image-container img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.image-container h3 {
+  text-align: center; 
+  margin-top: 10px; 
+  font-size: 15px; 
+  font-weight: bold; 
+  color: #333; 
+  transition: color 0.3s; 
+}
+
+.image-container h3 a {
+  text-decoration: none; 
+  color: #333; 
+}
+
+.image-container h3 a:hover {
+  color: #666; 
+  text-decoration: underline; 
+}
+
+.vid{
+  margin: 10px;
+
+}
+
+body {
+  background-color: pink;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end; 
+  margin-bottom: 20px; 
+}
+
+.header a {
+  text-decoration: none; 
+  color: #337ab7; 
+  margin-left: 20px; 
+  font-weight: bold; 
+}
+
+.header a:hover {
+  color: #23527c; 
+}
+
+/* h3 {
+  text-align: 
+} */
+
+.vid {
+  display: flex;
+  justify-content: center; 
+  margin: 20px 0; 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+h3 {
+  margin: 10px 0; 
+}
+
+a {
+  text-decoration: none; 
+  color: #337ab7; 
+}
+
+a:hover {
+  color: #23527c; 
+}
+
+.search-container {
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+.search-container input[type="text"] {
+  width: 300px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  font-size: 16px; 
+}
+
+.search-container button {
+  padding: 10px 15px;
+  background-color: #d35400; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  margin-left: 5px; 
+}
+
+.search-container button:hover {
+  background-color: #c0392b;
+}
+
+
+.fa-cart-shopping {
+  color: #d35400; 
+  margin-right: 0;
+  cursor: pointer; 
+  font-size: 24px; 
+  display: inline-block; 
+  vertical-align: middle; 
+  align-items: right;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0; 
+}
+
+.info-container {
+  display: flex; 
+  justify-content: center;
+  align-items: flex-start; 
+  margin: 20px 0; 
+  flex: 1; 
+}
+
+.info {
+  margin: 0 20px; 
+}
+
+.info h5, .info h6 {
+  text-align: center; 
+  margin: 10px 0; 
+}
+
+.info a {
+  text-decoration: none; 
+  color: #d35400; 
+}
+
+.info a:hover {
+  text-decoration: underline; 
+}
+
+.h {
+  margin: 0 20px; 
+}
+
+.h h5, .h h6 {
+  text-align: center; 
+  margin: 10px 0; 
+}
+
+.h a {
+  text-decoration: none; 
+  color: #d35400; 
+}
+
+.h a:hover {
+  text-decoration: underline; 
+}
+
+.c {
+  margin: 0 20px; 
+}
+
+.c h5, .c h6 {
+  text-align: center;
+  margin: 10px 0; 
+}
+
+.c a {
+  text-decoration: none; 
+  color: #d35400; 
+}
+
+.c a:hover {
+  text-decoration: underline;
+}
+
+.connect {
+  margin: 0 20px; 
+}
+
+.connect h5, .connect h6 {
+  text-align: center;
+  margin: 10px 0; 
+}
+
+.connect a {
+  text-decoration: none; 
+  color: #d35400; 
+}
+
+.connect a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center; 
+  padding: 10px 0; 
+  background-color: whitesmoke; 
+  position: relative; 
+  width: 100%;  
+  bottom: 0;
+}
